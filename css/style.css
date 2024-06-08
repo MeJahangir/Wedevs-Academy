@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    /* background-color: gray; */
+}
+
+.logo{
+    text-align: center;
+    margin-top: 200px;
+}

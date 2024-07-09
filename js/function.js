@@ -56,3 +56,10 @@ const person3 = {
 const greetPerson = greet.bind(person3);
 greetPerson("Hello"); // "Hello, Jahangir Alam"
 
+ 
+function Person3(name, age) {
+    this.name = name;
+    this.age = age; 
+}
+const Persons = new Person3("jahangir", 25);
+console.log(Persons);

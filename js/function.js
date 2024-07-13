@@ -62,4 +62,5 @@ function Person3(name, age) {
     this.age = age; 
 }
 const Persons = new Person3("jahangir", 25);
-console.log(Persons);
+console.log(Persons.name);
+
